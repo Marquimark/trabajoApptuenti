@@ -64,17 +64,17 @@ a:hover{
   }
 }
 
-@media (max-width: 320px){
+@media (min-width: 200px){
   a{
     display: block;
     position: absolute;
-    left: 130px;
-    bottom:280px;
+    left: 100px;
+    bottom:320px;
     background: url("./recursos/googPlay.png");
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-    background-size:cover;
+    background-size:contain;
     background-repeat: repeat-x;
     transform: rotate(-10deg);
     position: absolute;
