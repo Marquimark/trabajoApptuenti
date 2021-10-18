@@ -47,7 +47,7 @@ body{
   transform: rotate(-10deg);
   animation: googlePlay 20s linear infinite;
   /* transition: 2s linear; */
-  box-shadow: inset 0px 0 30px 5px rgba(255,255,255,0.2), 0px 0px 30px #FF0066;
+  box-shadow: inset 0px 0 40px rgba(255,255,255,0.2), 0px 0px 30px #fff;
   transform: scale(1.1);
 }
 
