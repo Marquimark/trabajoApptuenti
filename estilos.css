@@ -29,9 +29,15 @@ body{
 }
 
 .conejoImagen a{
-  position: absolute;
+  display: block;
+  position: relative;
+  top: 550px;
+  left: 110px;
+  bottom: 100px;
+  margin: auto;
+  /* position: absolute;
   left: 50%;
-  bottom: 25%;
+  bottom: 250px; */
   background: url("./recursos/googPlay.png");
   height: 180px;
   width: 180px;
@@ -53,42 +59,35 @@ body{
     background-position: 1050px 0px;
   }
 }
-/*
-@media (max-width: 250px){
+
+@media screen and(max-widdth: 800px){
   a{
-    display: block;
-    margin: auto;
-    position: absolute;
+    background: #fff;
+    /* position: absolute;
     left: 90px;
-    bottom: 260px;
+    bottom: 100px;
     background: url("./recursos/googPlay.png");
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+    height: 50px;
+    width: 50px;
     background-size:contain;
     background-repeat: repeat-x;
     transform: rotate(-10deg);
     box-shadow: inset 0px 0 20px rgba(255,255,255,0.4), 0px 0px 50px #FF0066;
     animation: googlePlay 10s linear infinite;
   }
-
-  a:hover{
-    transition: 1.5s;
-    transform: scale(1.1);
   }
-
-  @keyframes googlePlay {
+   */
+  /* @keyframes googlePlay {
     0% {
       background-position: 0 0;
     }
     100%{
       background-position: 200px 0px;
-    }
+    } */
   }
-
 }
 
-@media (min-width: 440px){
+/* @media (min-width: 440px){
   a{
     display: block;
     margin: auto;
@@ -118,9 +117,9 @@ body{
     100%{
       background-position: 200px 0px;
     }
-  }
+  } */
 
-} */
+/* }  */
 
 
 /* .play{
