@@ -15,17 +15,17 @@ body{
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 450px;
-  height: 100%;
+  width: 600px;
+  height: 100vh;
 }
 
 .conejoImagen{
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   min-width: 100%;
   background: url("./recursos/descargatuAPP.jpg") no-repeat center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .conejoImagen a{
