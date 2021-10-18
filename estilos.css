@@ -36,11 +36,11 @@ body{
 
 a{
   position: absolute;
-  left: 240px;
-  bottom: 110px;
+  left: 260px;
+  bottom: 220px;
   background: url("./recursos/googPlay.png");
-  height: 180px;
-  width: 180px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   background-size:cover;
   background-repeat: repeat-x;
