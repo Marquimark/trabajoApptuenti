@@ -35,11 +35,11 @@ a{
   display: block;
   margin: auto;
   position: absolute;
-  left: 200px;
-  bottom: 150px;
+  left: 180px;
+  bottom: 180px;
   background: url("./recursos/googPlay.png");
-  height: 200px;
-  width: 200px;
+  height: 160px;
+  width: 160px;
   border-radius: 50%;
   background-size:cover;
   background-repeat: repeat-x;
@@ -62,29 +62,20 @@ a:hover{
   }
 }
 
-@media only screen and (max-width: 445px){
+@media (max-width: 250px){
   a{
     display: block;
     margin: auto;
     position: absolute;
-    left: 160px;
-    bottom: 280px;
+    left: 90px;
+    bottom: 260px;
     background: url("./recursos/googPlay.png");
-    height: 180px;
-    width: 180px;
-    /* display: block;
-    margin: auto;
-    position: absolute;
-    left: 160px;
-    bottom:230px;
-    background: url("./recursos/googPlay.png");
-    height: 130px;
-    width: 130px; */
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     background-size:contain;
     background-repeat: repeat-x;
     transform: rotate(-10deg);
-    position: absolute;
     box-shadow: inset 0px 0 20px rgba(255,255,255,0.4), 0px 0px 50px #FF0066;
     animation: googlePlay 10s linear infinite;
   }
@@ -104,6 +95,41 @@ a:hover{
   }
 
 }
+
+@media (min-width: 440px){
+  a{
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 160px;
+    bottom: 200px;
+    background: url("./recursos/googPlay.png");
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size:contain;
+    background-repeat: repeat-x;
+    transform: rotate(-10deg);
+    box-shadow: inset 0px 0 20px rgba(255,255,255,0.4), 0px 0px 50px #FF0066;
+    animation: googlePlay 10s linear infinite;
+  }
+
+  a:hover{
+    transition: 1.5s;
+    transform: scale(1.1);
+  }
+
+  @keyframes googlePlay {
+    0% {
+      background-position: 0 0;
+    }
+    100%{
+      background-position: 200px 0px;
+    }
+  }
+
+}
+
 
 /* .play{
   position: absolute;
