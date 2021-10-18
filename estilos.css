@@ -36,11 +36,11 @@ body{
 
 a{
   position: absolute;
-  left: 220px;
-  bottom: 120px;
+  left: 180px;
+  bottom: 250px;
   background: url("./recursos/googPlay.png");
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
   background-size:cover;
   background-repeat: repeat-x;
@@ -62,6 +62,40 @@ a:hover{
   100%{
     background-position: 200px 0px;
   }
+}
+
+@media (max-width: 320px){
+  a{
+    display: block;
+    position: absolute;
+    left: 130px;
+    bottom:280px;
+    background: url("./recursos/googPlay.png");
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size:cover;
+    background-repeat: repeat-x;
+    transform: rotate(-10deg);
+    position: absolute;
+    box-shadow: inset 0px 0 20px rgba(255,255,255,0.4), 0px 0px 50px #FF0066;
+    animation: googlePlay 10s linear infinite;
+  }
+
+  a:hover{
+    transition: 1.5s;
+    transform: scale(1.1);
+  }
+
+  @keyframes googlePlay {
+    0% {
+      background-position: 0 0;
+    }
+    100%{
+      background-position: 200px 0px;
+    }
+  }
+
 }
 
 /* .play{
