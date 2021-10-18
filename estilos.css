@@ -5,11 +5,8 @@
 }
 
 body{
-  display: flex;
   height: 100vh;
   width: 100vw;
-  align-items: center;
-  justify-content: center;
 }
 
 .contenedor {
@@ -19,11 +16,11 @@ body{
   justify-content: center;
   position: relative;
   width: 450px;
-  height: 100vh;
-  transform-style: preserve-3d;
+  height: 100%;
 }
 
 .conejoImagen{
+  position: relative;
   height: 100vh;
   width: 100%;
   min-width: 100%;
@@ -31,25 +28,20 @@ body{
   background-size: contain;
 }
 
-a{
-  display: block;
-  margin: auto;
+.conejoImagen a{
   position: absolute;
-  left: 180px;
-  bottom: 180px;
+  left: 50%;
+  bottom: 25%;
   background: url("./recursos/googPlay.png");
-  height: 160px;
-  width: 160px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
   background-size:cover;
   background-repeat: repeat-x;
   transform: rotate(-10deg);
-  box-shadow: inset 0px 0 20px rgba(255,255,255,0.4), 0px 0px 50px #FF0066;
-  animation: googlePlay 10s linear infinite;
-}
-
-a:hover{
-  transition: 1.5s;
+  animation: googlePlay 20s linear infinite;
+  /* transition: 2s linear; */
+  box-shadow: inset 0px 0 30px 5px rgba(255,255,255,0.2), 0px 0px 30px #FF0066;
   transform: scale(1.1);
 }
 
@@ -58,10 +50,10 @@ a:hover{
     background-position: 0 0;
   }
   100%{
-    background-position: 200px 0px;
+    background-position: 1050px 0px;
   }
 }
-
+/*
 @media (max-width: 250px){
   a{
     display: block;
@@ -128,7 +120,7 @@ a:hover{
     }
   }
 
-}
+} */
 
 
 /* .play{
