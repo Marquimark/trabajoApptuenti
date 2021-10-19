@@ -92,6 +92,20 @@ body{
     width: 110px;
   }
 }
+
+@media (max-height: 850px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    bottom: 100px;
+    margin: auto;
+    height: 180px;
+    width: 180px;
+  }
+}
+
 @media (max-height: 750px){
   .conejoImagen a{
     display: block;
