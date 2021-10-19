@@ -54,7 +54,7 @@ body{
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 520px) {
   .conejoImagen a{
     display: block;
     position: absolute;
