@@ -9,6 +9,7 @@ body{
   width: 100vw;
   display: flex;
   align-items: center;
+  background-image: linear-gradient(120deg, #ED1768 0%, #372E7E 100%);
 }
 
 .contenedor {
@@ -17,7 +18,6 @@ body{
   justify-content: center;
   width: 100%;
   height: 95%;
- background-image: linear-gradient(120deg, #ED1768 0%, #372E7E 100%);
 }
 
 .conejoImagen{
