@@ -41,7 +41,7 @@ body{
   border-radius: 50%;
   background-size:cover;
   background-repeat: repeat-x;
-  animation: googlePlay 10s linear infinite;
+  animation: googlePlay 15s linear infinite;
   box-shadow: inset 0px 0 30px 15px rgba(255,255,255,0.3), 0px 0px 20px #fff;
 }
 
