@@ -41,7 +41,7 @@ body{
   top: 50%;
   left: 50%;
   width: 12%;
-  height: 20%;
+  height: 23%;
   background: url("./recursos/googPlay.webp");
   border-radius: 50%;
   background-size:cover;
@@ -59,13 +59,47 @@ body{
   }
 }
 
-@media(max-width: 1100px){
+@media(max-width: 1850px){
   .conejoImagen a{
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 25%;
+    width: 13%;
+    height: 23%;
+  }
+}
+
+@media(max-width: 1450px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15%;
+    height: 22%;
+  }
+}
+
+@media(max-width: 1270px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18%;
+    height: 22%;
+  }
+}
+
+
+@media(max-width: 1150px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
     height: 22%;
   }
 }
