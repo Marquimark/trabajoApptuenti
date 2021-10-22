@@ -23,7 +23,7 @@ body{
 .conejoImagen{
   position: relative;
   padding: 20px;
-  width: 800px;
+  width: 50%;
   height: 100%;
   background: url("./recursos/descargatuAPP.webp") no-repeat center;
   background-size: contain;
@@ -32,8 +32,8 @@ body{
 .conejoImagen a{
   display: block;
   position: absolute;
-  top: 400px;
-  left: 50%;
+  top: 45%;
+  left: 45%;
   bottom: 100px;
   margin: auto;
   background: url("./recursos/googPlay.webp");
@@ -55,29 +55,52 @@ body{
   }
 }
 
-@media (max-width: 520px){
+@media (max-width: 770px){
   .conejoImagen a{
     display: block;
     position: absolute;
-    top: 380px;
-    left: 50%;
-    bottom: 100px;
+    top: 40%;
+    left: 40%;
     margin: auto;
-    height: 180px;
-    width: 180px;
+    height: 22%;
+    width: 52%;
   }
 }
 
-@media (max-width: 440px){
+
+@media (max-width: 650px){
   .conejoImagen a{
     display: block;
     position: absolute;
-    top: 320px;
-    left: 50%;
-    bottom: 100px;
+    top: 35%;
+    left: 40%;
     margin: auto;
-    height: 150px;
-    width: 150px;
+    height: 18%;
+    width: 52%;
+  }
+}
+
+@media (max-width: 540px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    margin: auto;
+    height: 15%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 490px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 28%;
+    left: 45%;
+    margin: auto;
+    height: 12%;
+    width: 45%;
   }
 }
 
@@ -85,14 +108,13 @@ body{
   .conejoImagen a{
     display: block;
     position: absolute;
-    top: 280px;
+    top: 25%;
     left: 50%;
-    bottom: 100px;
     margin: auto;
-    height: 110px;
-    width: 110px;
+    height: 8%;
+    width: 40%;
   }
-}
+} */
 
 @media (max-height: 850px){
   .conejoImagen a{
