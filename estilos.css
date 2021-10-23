@@ -40,7 +40,7 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 12%;
+  width: 14%;
   height: 23%;
   background: url("./recursos/googPlay.webp");
   border-radius: 50%;
@@ -59,41 +59,18 @@ body{
   }
 }
 
-@media(max-width: 1850px){
-  .conejoImagen a{
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 13%;
-    height: 23%;
-  }
-}
-
-@media(max-width: 1450px){
+@media(max-width: 1800px){
   .conejoImagen a{
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 15%;
-    height: 24%;
-  }
-}
-
-@media(max-width: 1270px){
-  .conejoImagen a{
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 16%;
     height: 22%;
   }
 }
 
-
-@media(max-width: 1150px){
+@media(max-width: 1510px){
   .conejoImagen a{
     display: block;
     position: absolute;
@@ -104,25 +81,48 @@ body{
   }
 }
 
-@media(max-width: 988px){
+@media(max-width: 1270px){
   .conejoImagen a{
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 22%;
-    height: 23%;
+    height: 22%;
   }
 }
 
-@media(max-width: 910px){
+
+@media(max-width: 1110px){
   .conejoImagen a{
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    width:21%;
-    height: 20%;
+    width: 22%;
+    height: 22%;
+  }
+}
+
+@media(max-width: 980px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 23%;
+  }
+}
+
+@media(max-width: 900px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 22%;
   }
 }
 
@@ -132,8 +132,8 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 25%;
-    height: 21%;
+    width: 30%;
+    height: 20%;
    }
 }
 
@@ -144,8 +144,8 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 28%;
-    height: 20%;
+    width: 30%;
+    height: 16%;
   }
 }
 
@@ -156,7 +156,7 @@ body{
     top: 50%;
     left: 50%;
     width: 30%;
-    height: 19%;
+    height: 15%;
   }
 }
 
@@ -167,7 +167,7 @@ body{
     top: 50%;
     left: 50%;
     width: 30%;
-    height: 16%;
+    height: 11%;
   }
 }
 
@@ -178,7 +178,7 @@ body{
     top: 50%;
     left: 50%;
     width: 32%;
-    height: 14%;
+    height: 10%;
   }
 }
 
@@ -189,7 +189,7 @@ body{
     top: 50%;
     left: 50%;
     width: 30%;
-    height: 18%;
+    height: 8%;
   }
 }
 /* Altura  */
