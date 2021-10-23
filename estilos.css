@@ -58,7 +58,7 @@ body{
     background-position: 800px 0px;
   }
 }
-
+/*
 @media(max-width: 1800px){
   .conejoImagen a{
     display: block;
@@ -136,9 +136,9 @@ body{
     height: 20%;
    }
 }
+ */
 
-
-@media (max-width: 670px){
+@media (max-width: 1200px){
   .conejoImagen a{
     display: block;
     position: absolute;
@@ -149,49 +149,84 @@ body{
   }
 }
 
-@media (max-width: 580px){
+@media (max-width: 1024px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 22%;
+    height: 22%;
+  }
+}
+
+@media (max-width: 768px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    height: 22%;
+  }
+}
+
+@media(max-width: 630px){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    height: 20%;
+  }
+}
+
+@media(max-width: 480px){
   .conejoImagen a{
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 30%;
-    height: 15%;
+    height: 18%;
   }
 }
 
-@media (max-width: 490px){
+@media(max-width: 385px){
   .conejoImagen a{
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 30%;
-    height: 11%;
+    height: 14%;
   }
 }
 
-@media(max-width: 400px){
-  .conejoImagen a{
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 32%;
-    height: 10%;
-  }
-}
-
-@media(max-width: 350px){
+@media(max-width: 320px){
   .conejoImagen a{
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 30%;
-    height: 8%;
+    height: 12%;
   }
 }
+
+@media(orientation: landscape){
+  .conejoImagen a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10%;
+    height: 22%;
+  }
+}
+
+
 /* Altura  */
 /*
 @media (max-height: 1400px){
