@@ -9,7 +9,7 @@ body{
   width: 100vw;
   display: flex;
   align-items: center;
-  /* background-image: linear-gradient(120deg, #ED1768 0%, #372E7E 100%); */
+  background-image: linear-gradient(120deg, #ED1768 0%, #372E7E 100%);
 }
 
 .contenedor {
