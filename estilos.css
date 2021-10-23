@@ -171,7 +171,7 @@ body{
   }
 }
 
-@media (max-width: 400px){
+@media(max-width: 400px){
   .conejoImagen a{
     display: block;
     position: absolute;
@@ -182,19 +182,19 @@ body{
   }
 }
 
-@media (max-width: 350px){
+@media(max-width: 350px){
   .conejoImagen a{
     display: block;
     position: absolute;
-    top: 49%;
+    top: 50%;
     left: 50%;
     width: 30%;
-    height: 12%;
+    height: 18%;
   }
 }
-
- /* Altura  */
-@media screen and (max-height: 1400px){
+/* Altura  */
+/*
+@media (max-height: 1400px){
   .conejoImagen a{
     display: block;
     position: absolute;
@@ -205,7 +205,7 @@ body{
   }
 }
 
-@media screen and (max-height: 1100px){
+@media (max-height: 1100px){
   .conejoImagen a{
     display: block;
     position: absolute;
@@ -217,7 +217,7 @@ body{
 }
 
 
-@media screen and (max-height: 850px){
+@media (max-height: 850px){
   .conejoImagen a{
     display: block;
     position: absolute;
@@ -283,7 +283,7 @@ body{
   }
 }
 
-@media screen and (max-height: 450px){
+@media (max-height: 450px){
   .conejoImagen a{
     display: block;
     position: absolute;
