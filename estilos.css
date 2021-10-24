@@ -35,8 +35,8 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 10rem;
-  height: 10rem;
+  width: 11rem;
+  height: 11rem;
   background: url("./recursos/googPlay.webp");
   border-radius: 50%;
   background-size:cover;
@@ -60,8 +60,8 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 9rem;
-    height: 9rem;
+    width: 11rem;
+    height: 11rem;
   }
 }
 
@@ -71,12 +71,23 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 9rem;
-    height: 9rem;
+    width: 10rem;
+    height: 10rem;
   }
 }
 
 @media(max-width: 480px){
+  .contenedor a{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media(max-width: 385px){
   .contenedor a{
     display: block;
     position: absolute;
@@ -87,7 +98,7 @@ body{
   }
 }
 
-@media(max-width: 385px){
+@media(max-width: 330px){
   .contenedor a{
     display: block;
     position: absolute;
@@ -98,7 +109,7 @@ body{
   }
 }
 
-@media(max-width: 330px){
+@media(max-width: 290px){
   .contenedor a{
     display: block;
     position: absolute;
@@ -106,17 +117,6 @@ body{
     left: 50%;
     width: 5rem;
     height: 5rem;
-  }
-}
-
-@media(max-width: 230px){
-  .contenedor a{
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 4rem;
-    height: 4rem;
   }
 }
 
