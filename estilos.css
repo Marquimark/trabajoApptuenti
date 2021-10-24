@@ -42,7 +42,7 @@ body{
   background-size:cover;
   background-repeat: repeat-x;
   animation: googlePlay 15s linear infinite;
-  box-shadow: inset 0px 0 30px 15px rgba(255,255,255,0.3), 0px 0px 20px #fff;
+  box-shadow: inset 0px 0 30px rgba(255,255,255,0.4), 0px 0px 20px 2px #fff;
 }
 
 @keyframes googlePlay {
@@ -126,8 +126,8 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
   }
 }
 
